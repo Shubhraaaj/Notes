@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/loginBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="15dp"
+        android:src="@drawable/logo1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="#FFFF00"
+        android:fontFamily="serif"
+        android:padding="5dp"
+        android:textSize="40dp"
+        android:textAlignment="center" />
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/userID"
+            android:hint="Enter login ID"
+            android:textColorHint="@color/white"
+            android:inputType="text"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/white"
+            android:id="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="150dp"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:background="@drawable/my_button"
+            android:id="@+id/button"
+            android:fontFamily="sans-serif"
+            android:text="LOGIN"/>
+
+    </RelativeLayout>
+</LinearLayout>
